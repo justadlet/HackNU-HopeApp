@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CF98984AF5911D49CBE677 /* Pods_HackNU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8470FD43E6D9AD7DDF5CD /* Pods_HackNU.framework */; };
+		7F71C0112606C5C4006AB5A5 /* RegisterViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71C0102606C5C4006AB5A5 /* RegisterViewControllerExtension.swift */; };
+		7F881CAD26061A54004808CA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F881CAC26061A54004808CA /* MainTabBarController.swift */; };
+		7F881CAF26061AC1004808CA /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F881CAE26061AC1004808CA /* CreateEventViewController.swift */; };
+		7F881CB126061AE4004808CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F881CB026061AE4004808CA /* ProfileViewController.swift */; };
+		7F881CB526064492004808CA /* CreateEventViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F881CB426064492004808CA /* CreateEventViewControllerExtension.swift */; };
+		7F8F5B022605D03F00E8DDAF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F5B012605D03F00E8DDAF /* Color.swift */; };
+		7FBA743E2606DA2E005B9175 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA743D2606DA2E005B9175 /* Constants.swift */; };
+		7FBA74402606DB70005B9175 /* SignUpParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA743F2606DB70005B9175 /* SignUpParameters.swift */; };
+		7FBA74422606DEC1005B9175 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA74412606DEC1005B9175 /* LoginViewController.swift */; };
+		7FBA74442606DF1A005B9175 /* LoginViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA74432606DF1A005B9175 /* LoginViewControllerExtension.swift */; };
+		7FC387932605B23C00973000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387922605B23C00973000 /* AppDelegate.swift */; };
+		7FC387952605B23C00973000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387942605B23C00973000 /* SceneDelegate.swift */; };
+		7FC387972605B23C00973000 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387962605B23C00973000 /* HomeViewController.swift */; };
+		7FC3879C2605B23E00973000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3879B2605B23E00973000 /* Assets.xcassets */; };
+		7FC3879F2605B23E00973000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3879D2605B23E00973000 /* LaunchScreen.storyboard */; };
+		7FC387A82605B2B500973000 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387A72605B2B500973000 /* TableViewExtension.swift */; };
+		7FC387AB2605B2F000973000 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387AA2605B2F000973000 /* Extensions.swift */; };
+		7FC387AD2605B33D00973000 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387AC2605B33D00973000 /* PostCell.swift */; };
+		7FC387AF2605B37900973000 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC387AE2605B37900973000 /* Event.swift */; };
+		7FD7EE04260681B7006D0599 /* DescriptionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7EE03260681B7006D0599 /* DescriptionTextField.swift */; };
+		7FEA1CD32606A8E500289AD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA1CD22606A8E500289AD7 /* User.swift */; };
+		7FEA1CD52606B0B200289AD7 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA1CD42606B0B200289AD7 /* UsersViewController.swift */; };
+		7FEA1CD72606B2E100289AD7 /* UsersViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA1CD62606B2E100289AD7 /* UsersViewControllerExtension.swift */; };
+		7FEA1CD92606B6B300289AD7 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA1CD82606B6B300289AD7 /* UserTableViewCell.swift */; };
+		7FEA1CDB2606BF9B00289AD7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA1CDA2606BF9B00289AD7 /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5111A6370AA75EDD0D117793 /* Pods-HackNU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNU.debug.xcconfig"; path = "Target Support Files/Pods-HackNU/Pods-HackNU.debug.xcconfig"; sourceTree = "<group>"; };
+		7F71C0102606C5C4006AB5A5 /* RegisterViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControllerExtension.swift; sourceTree = "<group>"; };
+		7F881CAC26061A54004808CA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7F881CAE26061AC1004808CA /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		7F881CB026061AE4004808CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7F881CB426064492004808CA /* CreateEventViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewControllerExtension.swift; sourceTree = "<group>"; };
+		7F8F5B012605D03F00E8DDAF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7FBA743D2606DA2E005B9175 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FBA743F2606DB70005B9175 /* SignUpParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpParameters.swift; sourceTree = "<group>"; };
+		7FBA74412606DEC1005B9175 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7FBA74432606DF1A005B9175 /* LoginViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerExtension.swift; sourceTree = "<group>"; };
+		7FC3878F2605B23C00973000 /* HackNU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC387922605B23C00973000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FC387942605B23C00973000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FC387962605B23C00973000 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7FC3879B2605B23E00973000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FC3879E2605B23E00973000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FC387A02605B23E00973000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC387A72605B2B500973000 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		7FC387AA2605B2F000973000 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FC387AC2605B33D00973000 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		7FC387AE2605B37900973000 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		7FD7EE03260681B7006D0599 /* DescriptionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTextField.swift; sourceTree = "<group>"; };
+		7FEA1CD22606A8E500289AD7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7FEA1CD42606B0B200289AD7 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		7FEA1CD62606B2E100289AD7 /* UsersViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewControllerExtension.swift; sourceTree = "<group>"; };
+		7FEA1CD82606B6B300289AD7 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		7FEA1CDA2606BF9B00289AD7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AAB4C58711A479F5EB12B820 /* Pods-HackNU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNU.release.xcconfig"; path = "Target Support Files/Pods-HackNU/Pods-HackNU.release.xcconfig"; sourceTree = "<group>"; };
+		D7E8470FD43E6D9AD7DDF5CD /* Pods_HackNU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackNU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC3878C2605B23C00973000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF98984AF5911D49CBE677 /* Pods_HackNU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FD671187A8111FF268E202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8470FD43E6D9AD7DDF5CD /* Pods_HackNU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FBA74452606F92B005B9175 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7FC387962605B23C00973000 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7FC387862605B23C00973000 = {
+			isa = PBXGroup;
+			children = (
+				7FC387912605B23C00973000 /* HackNU */,
+				7FC387902605B23C00973000 /* Products */,
+				C2F9DD5F982C5AB2A29494F3 /* Pods */,
+				32FD671187A8111FF268E202 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC387902605B23C00973000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC3878F2605B23C00973000 /* HackNU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC387912605B23C00973000 /* HackNU */ = {
+			isa = PBXGroup;
+			children = (
+				7FC387922605B23C00973000 /* AppDelegate.swift */,
+				7FC387942605B23C00973000 /* SceneDelegate.swift */,
+				7FC387B12605B38900973000 /* Views */,
+				7FC387B02605B38200973000 /* Models */,
+				7FC387A92605B2D700973000 /* Helpers */,
+				7FC387A62605B2A500973000 /* Table View */,
+				7FC3879B2605B23E00973000 /* Assets.xcassets */,
+				7FC3879D2605B23E00973000 /* LaunchScreen.storyboard */,
+				7FC387A02605B23E00973000 /* Info.plist */,
+			);
+			path = HackNU;
+			sourceTree = "<group>";
+		};
+		7FC387A62605B2A500973000 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				7FC387AC2605B33D00973000 /* PostCell.swift */,
+				7FC387A72605B2B500973000 /* TableViewExtension.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		7FC387A92605B2D700973000 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC387AA2605B2F000973000 /* Extensions.swift */,
+				7F8F5B012605D03F00E8DDAF /* Color.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7FC387B02605B38200973000 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FC387AE2605B37900973000 /* Event.swift */,
+				7FEA1CD22606A8E500289AD7 /* User.swift */,
+				7FBA743D2606DA2E005B9175 /* Constants.swift */,
+				7FBA743F2606DB70005B9175 /* SignUpParameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7FC387B12605B38900973000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA1CDC2606C2E400289AD7 /* Login | Registter */,
+				7F881CAC26061A54004808CA /* MainTabBarController.swift */,
+				7FBA74452606F92B005B9175 /* Home */,
+				7F881CAE26061AC1004808CA /* CreateEventViewController.swift */,
+				7F881CB426064492004808CA /* CreateEventViewControllerExtension.swift */,
+				7FD7EE03260681B7006D0599 /* DescriptionTextField.swift */,
+				7F881CB026061AE4004808CA /* ProfileViewController.swift */,
+				7FEA1CD42606B0B200289AD7 /* UsersViewController.swift */,
+				7FEA1CD62606B2E100289AD7 /* UsersViewControllerExtension.swift */,
+				7FEA1CD82606B6B300289AD7 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FEA1CDC2606C2E400289AD7 /* Login | Registter */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA1CDA2606BF9B00289AD7 /* RegisterViewController.swift */,
+				7F71C0102606C5C4006AB5A5 /* RegisterViewControllerExtension.swift */,
+				7FBA74412606DEC1005B9175 /* LoginViewController.swift */,
+				7FBA74432606DF1A005B9175 /* LoginViewControllerExtension.swift */,
+			);
+			path = "Login | Registter";
+			sourceTree = "<group>";
+		};
+		C2F9DD5F982C5AB2A29494F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5111A6370AA75EDD0D117793 /* Pods-HackNU.debug.xcconfig */,
+				AAB4C58711A479F5EB12B820 /* Pods-HackNU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC3878E2605B23C00973000 /* HackNU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC387A32605B23E00973000 /* Build configuration list for PBXNativeTarget "HackNU" */;
+			buildPhases = (
+				856DE7E4DB46ECABBD6E6069 /* [CP] Check Pods Manifest.lock */,
+				7FC3878B2605B23C00973000 /* Sources */,
+				7FC3878C2605B23C00973000 /* Frameworks */,
+				7FC3878D2605B23C00973000 /* Resources */,
+				0AF7A11BC3D76156034D3068 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackNU;
+			productName = HackNU;
+			productReference = 7FC3878F2605B23C00973000 /* HackNU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC387872605B23C00973000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = justadlet;
+				TargetAttributes = {
+					7FC3878E2605B23C00973000 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FC3878A2605B23C00973000 /* Build configuration list for PBXProject "HackNU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC387862605B23C00973000;
+			productRefGroup = 7FC387902605B23C00973000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC3878E2605B23C00973000 /* HackNU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC3878D2605B23C00973000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC3879F2605B23E00973000 /* LaunchScreen.storyboard in Resources */,
+				7FC3879C2605B23E00973000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF7A11BC3D76156034D3068 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		856DE7E4DB46ECABBD6E6069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackNU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC3878B2605B23C00973000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEA1CDB2606BF9B00289AD7 /* RegisterViewController.swift in Sources */,
+				7FC387AB2605B2F000973000 /* Extensions.swift in Sources */,
+				7FC387972605B23C00973000 /* HomeViewController.swift in Sources */,
+				7F881CAD26061A54004808CA /* MainTabBarController.swift in Sources */,
+				7F881CB526064492004808CA /* CreateEventViewControllerExtension.swift in Sources */,
+				7FD7EE04260681B7006D0599 /* DescriptionTextField.swift in Sources */,
+				7FC387932605B23C00973000 /* AppDelegate.swift in Sources */,
+				7FEA1CD32606A8E500289AD7 /* User.swift in Sources */,
+				7FEA1CD72606B2E100289AD7 /* UsersViewControllerExtension.swift in Sources */,
+				7FEA1CD52606B0B200289AD7 /* UsersViewController.swift in Sources */,
+				7FC387952605B23C00973000 /* SceneDelegate.swift in Sources */,
+				7FC387A82605B2B500973000 /* TableViewExtension.swift in Sources */,
+				7F881CB126061AE4004808CA /* ProfileViewController.swift in Sources */,
+				7F8F5B022605D03F00E8DDAF /* Color.swift in Sources */,
+				7F71C0112606C5C4006AB5A5 /* RegisterViewControllerExtension.swift in Sources */,
+				7FBA743E2606DA2E005B9175 /* Constants.swift in Sources */,
+				7FBA74442606DF1A005B9175 /* LoginViewControllerExtension.swift in Sources */,
+				7F881CAF26061AC1004808CA /* CreateEventViewController.swift in Sources */,
+				7FBA74402606DB70005B9175 /* SignUpParameters.swift in Sources */,
+				7FBA74422606DEC1005B9175 /* LoginViewController.swift in Sources */,
+				7FC387AF2605B37900973000 /* Event.swift in Sources */,
+				7FEA1CD92606B6B300289AD7 /* UserTableViewCell.swift in Sources */,
+				7FC387AD2605B33D00973000 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FC3879D2605B23E00973000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC3879E2605B23E00973000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC387A12605B23E00973000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FC387A22605B23E00973000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC387A42605B23E00973000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5111A6370AA75EDD0D117793 /* Pods-HackNU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5594B8DQMM;
+				INFOPLIST_FILE = HackNU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justadlet.HackNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FC387A52605B23E00973000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB4C58711A479F5EB12B820 /* Pods-HackNU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5594B8DQMM;
+				INFOPLIST_FILE = HackNU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justadlet.HackNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC3878A2605B23C00973000 /* Build configuration list for PBXProject "HackNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC387A12605B23E00973000 /* Debug */,
+				7FC387A22605B23E00973000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC387A32605B23E00973000 /* Build configuration list for PBXNativeTarget "HackNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC387A42605B23E00973000 /* Debug */,
+				7FC387A52605B23E00973000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC387872605B23C00973000 /* Project object */;
+}
