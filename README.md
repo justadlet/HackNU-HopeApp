@@ -1,6 +1,8 @@
 # HackNU-HopeApp
 <div align="center">
-  Hope App - Application that supports parents with sick children 
+  Hope App - Application that supports parents with sick children.
+  
+  P.S. Designed and developed the app during <a href = "hacknu.kz"> Hackathon </a> in about 36 hours.
 </div>
 
 
