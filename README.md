@@ -2,7 +2,7 @@
 <div align="center">
   Hope App - Application that supports parents with sick children.
   
-  P.S. Designed and developed the app during <a href = "hacknu.kz"> Hackathon </a> in about 36 hours.
+  P.S. Designed and developed the app during <a href = "https://www.hacknu.kz/"> Hackathon </a> in about 36 hours.
 </div>
 
 
