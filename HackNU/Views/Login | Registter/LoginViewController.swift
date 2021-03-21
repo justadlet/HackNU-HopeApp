@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
     
     private let signUpToContinueLabel: UILabel = {
         let label = UILabel()
-        label.text = "Sign up to continue"
+        label.text = "Sign in to continue"
         label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
         label.textColor = Color.unselectedBlue
         return label
@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
     
     private let dontHaveAccountLabel: UILabel = {
         let label = UILabel()
-        label.text = "Already have an account?"
+        label.text = "Don't have an account?"
         label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
         label.textColor = Color.unselectedBlue
         return label
