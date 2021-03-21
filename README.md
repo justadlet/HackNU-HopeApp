@@ -16,7 +16,14 @@
 - [iOS - Swift](https://github.com/justadlet/HackNU-HopeApp)
 - [Backend - Golang](https://github.com/justadlet/HackNU-HopeApp) 
 
-# Screenshots
+## Mini demo
+<p align="center">
+  <img alt="About image" title="Mockup" src="https://github.com/justadlet/HackNU-HopeApp/blob/main/hope.gif?raw=true" height="640"></img>
+ 
+</p>
+
+
+## Screenshots
 Registration | Login
 :-------------------------:|:-------------------------:
 ![](https://github.com/justadlet/HackNU-HopeApp/blob/main/Hope0.png?raw=true)  |  ![](https://github.com/justadlet/HackNU-HopeApp/blob/main/Hope7.png?raw=true)
