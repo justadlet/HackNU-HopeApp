@@ -14,7 +14,7 @@
 ## 💻 Stack
 
 - [iOS - Swift](https://github.com/justadlet/HackNU-HopeApp)
-- [Backend - Golang](https://github.com/justadlet/HackNU-HopeApp) 
+- [Backend - Golang](https://github.com/Ressley/hacknu) 
 
 ## Mini demo
 <p align="center">
